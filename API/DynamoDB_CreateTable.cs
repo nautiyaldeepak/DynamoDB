@@ -11,8 +11,8 @@ namespace DynamoDB_Create
         {
             try
             {
-                string AccessKey = "AKIAJ6MQDHUCYN7NPLVQ";
-                string SecretKey = "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";
+                string AccessKey = " *** Enter Access Key Here *** ";
+                string SecretKey = " *** Enter Secret Key Here *** ";
                 Console.WriteLine("Enter Table Name ");
                 string tableName = Console.ReadLine();
                 var client = new AmazonDynamoDBClient(AccessKey, SecretKey, Amazon.RegionEndpoint.APSouth1);
