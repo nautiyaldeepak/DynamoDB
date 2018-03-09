@@ -15,6 +15,9 @@ namespace DynamoDB_Create
                 string SecretKey = " *** Enter Secret Key Here *** ";
                 Console.WriteLine("Enter Table Name ");
                 string tableName = Console.ReadLine();
+                
+                //  Client region is Mumbai 
+                
                 var client = new AmazonDynamoDBClient(AccessKey, SecretKey, Amazon.RegionEndpoint.APSouth1);
                 Console.WriteLine("Getting list of tables");
                 List<string> currentTables = client.ListTables().TableNames;
