@@ -1,6 +1,7 @@
 //  DynamoDB NuGet Package
 //  AWS Core NuGet Package
 //  Access Key & Secret Key Required
+//  Access Key & Secret Key should have DynamoDB permissions 
 
 using System;
 using System.Collections.Generic;
