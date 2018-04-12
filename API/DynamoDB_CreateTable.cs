@@ -44,6 +44,7 @@ namespace DynamoDB_Create
                 Console.WriteLine("Enter Range Key Type [N -> number, S -> String, B -> Binary]");
                 string RangeKeyType = Console.ReadLine();
 
+                //Read Cpapcity Units & Wirte capacity Units
                 Console.WriteLine("Enter Read Capacity Unit");
                 int ReadCapacity = Convert.ToInt32(Console.ReadLine());
 
