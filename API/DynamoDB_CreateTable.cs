@@ -2,6 +2,13 @@
 //  AWS Core NuGet Package
 //  Access Key & Secret Key Required
 //  Access Key & Secret Key should have DynamoDB permissions 
+/*
+*
+*
+    Region choice will be added soon
+*
+*
+*/
 
 
 using System;
