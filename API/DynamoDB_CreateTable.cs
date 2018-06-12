@@ -25,6 +25,7 @@ namespace DynamoDB_Create
         {
             try
             {
+                
                 string AccessKey = " *** Enter Access Key Here *** ";
                 string SecretKey = " *** Enter Secret Key Here *** ";
                 Console.WriteLine("Enter Table Name ");
@@ -103,6 +104,7 @@ namespace DynamoDB_Create
                 {
                     Console.WriteLine("Table Already Exists");
                 }
+                
             }
             catch(Exception e)
             {
