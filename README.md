@@ -1,5 +1,5 @@
 # DynamoDB-API
-C# codes for DynamoDB 
+DynamoDB codes 
 
 # Functions: 
 Create Table
