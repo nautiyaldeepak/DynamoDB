@@ -19,7 +19,7 @@ namespace DynamoDB_Create
                 Console.WriteLine("Getting list of tables");
                 List<string> currentTables = client.ListTables().TableNames;
                 int count = currentTables.Count;
-                for(int i =0;i<count;i++)
+                for(int i = 0;i < count; i++)
                 {
                     Console.WriteLine(currentTables[i]);
                 }
